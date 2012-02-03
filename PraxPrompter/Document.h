@@ -8,6 +8,14 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface Document : NSPersistentDocument
+@interface Document : NSDocument
+{
+    IBOutlet NSTextView *textView;
+    NSAttributedString *mString;
+}
+
+- (NSAttributedString *) string;
+
+- (void) setString: (NSAttributedString *) value;
 
 @end
