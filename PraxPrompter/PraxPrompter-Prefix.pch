@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'PraxPrompter' target in the 'PraxPrompter' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C376E2AD14DB6E7000663570 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C376E2AC14DB6E7000663570 /* Cocoa.framework */; };
+		C376E2B714DB6E7000663570 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C376E2B514DB6E7000663570 /* InfoPlist.strings */; };
+		C376E2B914DB6E7000663570 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C376E2B814DB6E7000663570 /* main.m */; };
+		C376E2BD14DB6E7000663570 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C376E2BB14DB6E7000663570 /* Credits.rtf */; };
+		C376E2C014DB6E7000663570 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = C376E2BF14DB6E7000663570 /* Document.m */; };
+		C376E2C314DB6E7000663570 /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = C376E2C114DB6E7000663570 /* Document.xib */; };
+		C376E2C614DB6E7000663570 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C376E2C414DB6E7000663570 /* MainMenu.xib */; };
+		C376E2C914DB6E7000663570 /* Document.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C376E2C714DB6E7000663570 /* Document.xcdatamodeld */; };
+		C376E2D114DB6E7000663570 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C376E2D014DB6E7000663570 /* SenTestingKit.framework */; };
+		C376E2D214DB6E7000663570 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C376E2AC14DB6E7000663570 /* Cocoa.framework */; };
+		C376E2DA14DB6E7000663570 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C376E2D814DB6E7000663570 /* InfoPlist.strings */; };
+		C376E2DD14DB6E7000663570 /* PraxPrompterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C376E2DC14DB6E7000663570 /* PraxPrompterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C376E2D314DB6E7000663570 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C376E29F14DB6E6F00663570 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C376E2A714DB6E6F00663570;
+			remoteInfo = PraxPrompter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C376E2A814DB6E7000663570 /* PraxPrompter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PraxPrompter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C376E2AC14DB6E7000663570 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C376E2AF14DB6E7000663570 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C376E2B014DB6E7000663570 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C376E2B114DB6E7000663570 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C376E2B414DB6E7000663570 /* PraxPrompter-Info.plist */ = {isa = PBXFileReference; path = "PraxPrompter-Info.plist"; sourceTree = "<group>"; };
+		C376E2B614DB6E7000663570 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C376E2B814DB6E7000663570 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C376E2BA14DB6E7000663570 /* PraxPrompter-Prefix.pch */ = {isa = PBXFileReference; path = "PraxPrompter-Prefix.pch"; sourceTree = "<group>"; };
+		C376E2BC14DB6E7000663570 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C376E2BE14DB6E7000663570 /* Document.h */ = {isa = PBXFileReference; path = Document.h; sourceTree = "<group>"; };
+		C376E2BF14DB6E7000663570 /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		C376E2C214DB6E7000663570 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Document.xib; sourceTree = "<group>"; };
+		C376E2C514DB6E7000663570 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C376E2C814DB6E7000663570 /* Document.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Document.xcdatamodel; sourceTree = "<group>"; };
+		C376E2CF14DB6E7000663570 /* PraxPrompterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PraxPrompterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C376E2D014DB6E7000663570 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C376E2D714DB6E7000663570 /* PraxPrompterTests-Info.plist */ = {isa = PBXFileReference; path = "PraxPrompterTests-Info.plist"; sourceTree = "<group>"; };
+		C376E2D914DB6E7000663570 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C376E2DB14DB6E7000663570 /* PraxPrompterTests.h */ = {isa = PBXFileReference; path = PraxPrompterTests.h; sourceTree = "<group>"; };
+		C376E2DC14DB6E7000663570 /* PraxPrompterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PraxPrompterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C376E2A514DB6E6F00663570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C376E2AD14DB6E7000663570 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C376E2CB14DB6E7000663570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C376E2D114DB6E7000663570 /* SenTestingKit.framework in Frameworks */,
+				C376E2D214DB6E7000663570 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C376E29D14DB6E6F00663570 = {
+			isa = PBXGroup;
+			children = (
+				C376E2B214DB6E7000663570 /* PraxPrompter */,
+				C376E2D514DB6E7000663570 /* PraxPrompterTests */,
+				C376E2AB14DB6E7000663570 /* Frameworks */,
+				C376E2A914DB6E7000663570 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C376E2A914DB6E7000663570 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C376E2A814DB6E7000663570 /* PraxPrompter.app */,
+				C376E2CF14DB6E7000663570 /* PraxPrompterTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C376E2AB14DB6E7000663570 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C376E2AC14DB6E7000663570 /* Cocoa.framework */,
+				C376E2D014DB6E7000663570 /* SenTestingKit.framework */,
+				C376E2AE14DB6E7000663570 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C376E2AE14DB6E7000663570 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C376E2AF14DB6E7000663570 /* AppKit.framework */,
+				C376E2B014DB6E7000663570 /* CoreData.framework */,
+				C376E2B114DB6E7000663570 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C376E2B214DB6E7000663570 /* PraxPrompter */ = {
+			isa = PBXGroup;
+			children = (
+				C376E2BE14DB6E7000663570 /* Document.h */,
+				C376E2BF14DB6E7000663570 /* Document.m */,
+				C376E2C114DB6E7000663570 /* Document.xib */,
+				C376E2C414DB6E7000663570 /* MainMenu.xib */,
+				C376E2C714DB6E7000663570 /* Document.xcdatamodeld */,
+				C376E2B314DB6E7000663570 /* Supporting Files */,
+			);
+			path = PraxPrompter;
+			sourceTree = "<group>";
+		};
+		C376E2B314DB6E7000663570 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C376E2B414DB6E7000663570 /* PraxPrompter-Info.plist */,
+				C376E2B514DB6E7000663570 /* InfoPlist.strings */,
+				C376E2B814DB6E7000663570 /* main.m */,
+				C376E2BA14DB6E7000663570 /* PraxPrompter-Prefix.pch */,
+				C376E2BB14DB6E7000663570 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C376E2D514DB6E7000663570 /* PraxPrompterTests */ = {
+			isa = PBXGroup;
+			children = (
+				C376E2DB14DB6E7000663570 /* PraxPrompterTests.h */,
+				C376E2DC14DB6E7000663570 /* PraxPrompterTests.m */,
+				C376E2D614DB6E7000663570 /* Supporting Files */,
+			);
+			path = PraxPrompterTests;
+			sourceTree = "<group>";
+		};
+		C376E2D614DB6E7000663570 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C376E2D714DB6E7000663570 /* PraxPrompterTests-Info.plist */,
+				C376E2D814DB6E7000663570 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C376E2A714DB6E6F00663570 /* PraxPrompter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C376E2E014DB6E7000663570 /* Build configuration list for PBXNativeTarget "PraxPrompter" */;
+			buildPhases = (
+				C376E2A414DB6E6F00663570 /* Sources */,
+				C376E2A514DB6E6F00663570 /* Frameworks */,
+				C376E2A614DB6E6F00663570 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PraxPrompter;
+			productName = PraxPrompter;
+			productReference = C376E2A814DB6E7000663570 /* PraxPrompter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C376E2CE14DB6E7000663570 /* PraxPrompterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C376E2E314DB6E7000663570 /* Build configuration list for PBXNativeTarget "PraxPrompterTests" */;
+			buildPhases = (
+				C376E2CA14DB6E7000663570 /* Sources */,
+				C376E2CB14DB6E7000663570 /* Frameworks */,
+				C376E2CC14DB6E7000663570 /* Resources */,
+				C376E2CD14DB6E7000663570 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C376E2D414DB6E7000663570 /* PBXTargetDependency */,
+			);
+			name = PraxPrompterTests;
+			productName = PraxPrompterTests;
+			productReference = C376E2CF14DB6E7000663570 /* PraxPrompterTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C376E29F14DB6E6F00663570 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C376E2A214DB6E6F00663570 /* Build configuration list for PBXProject "PraxPrompter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C376E29D14DB6E6F00663570;
+			productRefGroup = C376E2A914DB6E7000663570 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C376E2A714DB6E6F00663570 /* PraxPrompter */,
+				C376E2CE14DB6E7000663570 /* PraxPrompterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C376E2A614DB6E6F00663570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C376E2B714DB6E7000663570 /* InfoPlist.strings in Resources */,
+				C376E2BD14DB6E7000663570 /* Credits.rtf in Resources */,
+				C376E2C314DB6E7000663570 /* Document.xib in Resources */,
+				C376E2C614DB6E7000663570 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C376E2CC14DB6E7000663570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C376E2DA14DB6E7000663570 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C376E2CD14DB6E7000663570 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C376E2A414DB6E6F00663570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C376E2B914DB6E7000663570 /* main.m in Sources */,
+				C376E2C014DB6E7000663570 /* Document.m in Sources */,
+				C376E2C914DB6E7000663570 /* Document.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C376E2CA14DB6E7000663570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C376E2DD14DB6E7000663570 /* PraxPrompterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C376E2D414DB6E7000663570 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C376E2A714DB6E6F00663570 /* PraxPrompter */;
+			targetProxy = C376E2D314DB6E7000663570 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C376E2B514DB6E7000663570 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C376E2B614DB6E7000663570 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C376E2BB14DB6E7000663570 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C376E2BC14DB6E7000663570 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C376E2C114DB6E7000663570 /* Document.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C376E2C214DB6E7000663570 /* en */,
+			);
+			name = Document.xib;
+			sourceTree = "<group>";
+		};
+		C376E2C414DB6E7000663570 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C376E2C514DB6E7000663570 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		C376E2D814DB6E7000663570 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C376E2D914DB6E7000663570 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C376E2DE14DB6E7000663570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C376E2DF14DB6E7000663570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C376E2E114DB6E7000663570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PraxPrompter/PraxPrompter-Prefix.pch";
+				INFOPLIST_FILE = "PraxPrompter/PraxPrompter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C376E2E214DB6E7000663570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PraxPrompter/PraxPrompter-Prefix.pch";
+				INFOPLIST_FILE = "PraxPrompter/PraxPrompter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C376E2E414DB6E7000663570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PraxPrompter.app/Contents/MacOS/PraxPrompter";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PraxPrompter/PraxPrompter-Prefix.pch";
+				INFOPLIST_FILE = "PraxPrompterTests/PraxPrompterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C376E2E514DB6E7000663570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PraxPrompter.app/Contents/MacOS/PraxPrompter";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PraxPrompter/PraxPrompter-Prefix.pch";
+				INFOPLIST_FILE = "PraxPrompterTests/PraxPrompterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C376E2A214DB6E6F00663570 /* Build configuration list for PBXProject "PraxPrompter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C376E2DE14DB6E7000663570 /* Debug */,
+				C376E2DF14DB6E7000663570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C376E2E014DB6E7000663570 /* Build configuration list for PBXNativeTarget "PraxPrompter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C376E2E114DB6E7000663570 /* Debug */,
+				C376E2E214DB6E7000663570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C376E2E314DB6E7000663570 /* Build configuration list for PBXNativeTarget "PraxPrompterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C376E2E414DB6E7000663570 /* Debug */,
+				C376E2E514DB6E7000663570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C376E2C714DB6E7000663570 /* Document.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C376E2C814DB6E7000663570 /* Document.xcdatamodel */,
+			);
+			currentVersion = C376E2C814DB6E7000663570 /* Document.xcdatamodel */;
+			path = Document.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C376E29F14DB6E6F00663570 /* Project object */;
+}
