@@ -81,4 +81,7 @@
     return data;
 }
 
+- (IBAction)playTeleprompter:(id)sender {
+    [[NSAlert alertWithMessageText:@"Important message" defaultButton:@"Ok" alternateButton:@"Cancel" otherButton:@"Other" informativeTextWithFormat:[textView ]] runModal];
+}
 @end

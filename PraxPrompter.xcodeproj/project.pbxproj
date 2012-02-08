@@ -19,6 +19,7 @@
 		C376E2D214DB6E7000663570 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C376E2AC14DB6E7000663570 /* Cocoa.framework */; };
 		C376E2DA14DB6E7000663570 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C376E2D814DB6E7000663570 /* InfoPlist.strings */; };
 		C376E2DD14DB6E7000663570 /* PraxPrompterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C376E2DC14DB6E7000663570 /* PraxPrompterTests.m */; };
+		C37D05CD14DF589400D5D865 /* Button-Play-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C37D05CC14DF589400D5D865 /* Button-Play-icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		C376E2D914DB6E7000663570 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C376E2DB14DB6E7000663570 /* PraxPrompterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PraxPrompterTests.h; sourceTree = "<group>"; };
 		C376E2DC14DB6E7000663570 /* PraxPrompterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PraxPrompterTests.m; sourceTree = "<group>"; };
+		C37D05CC14DF589400D5D865 /* Button-Play-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Button-Play-icon.png"; path = "../../../../Downloads/Button-Play-icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 		C376E2B314DB6E7000663570 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C37D05CC14DF589400D5D865 /* Button-Play-icon.png */,
 				C376E2B414DB6E7000663570 /* PraxPrompter-Info.plist */,
 				C376E2B514DB6E7000663570 /* InfoPlist.strings */,
 				C376E2B814DB6E7000663570 /* main.m */,
@@ -233,6 +236,7 @@
 				C376E2BD14DB6E7000663570 /* Credits.rtf in Resources */,
 				C376E2C314DB6E7000663570 /* Document.xib in Resources */,
 				C376E2C614DB6E7000663570 /* MainMenu.xib in Resources */,
+				C37D05CD14DF589400D5D865 /* Button-Play-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
